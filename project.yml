@@ -1,0 +1,6 @@
+packages:
+  - name: api
+    shared: false
+    annotations:
+      ${haxx}: true
+    environment: $(env_1 env_2)
